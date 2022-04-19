@@ -1,0 +1,12 @@
+C:\Users\k\source\repos\FinanceChecker\CommonLib\bin\Debug\net6.0\CommonLib.deps.json
+C:\Users\k\source\repos\FinanceChecker\CommonLib\bin\Debug\net6.0\CommonLib.dll
+C:\Users\k\source\repos\FinanceChecker\CommonLib\bin\Debug\net6.0\CommonLib.pdb
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\CommonLib.csproj.AssemblyReference.cache
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\CommonLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\CommonLib.AssemblyInfoInputs.cache
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\CommonLib.AssemblyInfo.cs
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\CommonLib.csproj.CoreCompileInputs.cache
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\CommonLib.dll
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\refint\CommonLib.dll
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\CommonLib.pdb
+C:\Users\k\source\repos\FinanceChecker\CommonLib\obj\Debug\net6.0\ref\CommonLib.dll

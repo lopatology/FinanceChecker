@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\FinanceChecker\\CommonLib\\CommonLib.csproj": {}
+    "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj": {}
   },
   "projects": {
-    "C:\\Source\\FinanceChecker\\CommonLib\\CommonLib.csproj": {
+    "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\FinanceChecker\\CommonLib\\CommonLib.csproj",
+        "projectUniqueName": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj",
         "projectName": "CommonLib",
-        "projectPath": "C:\\Source\\FinanceChecker\\CommonLib\\CommonLib.csproj",
-        "packagesPath": "C:\\Users\\Jerzy\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\FinanceChecker\\CommonLib\\obj\\",
+        "projectPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj",
+        "packagesPath": "C:\\Users\\k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jerzy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\k\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

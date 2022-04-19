@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Source\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
-        "projectName": "ConsoleApp",
-        "projectPath": "C:\\Source\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Jerzy\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\FinanceChecker\\ConsoleApp\\obj\\",
+        "projectUniqueName": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj",
+        "projectName": "CommonLib",
+        "projectPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj",
+        "packagesPath": "C:\\Users\\k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jerzy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\k\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,6 +29,65 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\k\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj": {
+                "projectPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,26 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CommonLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CommonLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CommonLib/1.0.0": {
+      "type": "project",
+      "path": "../CommonLib/CommonLib.csproj",
+      "msbuildProject": "../CommonLib/CommonLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CommonLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Jerzy\\.nuget\\packages\\": {}
+    "C:\\Users\\k\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Source\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Source\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\Jerzy\\.nuget\\packages\\",
-      "outputPath": "C:\\Source\\FinanceChecker\\ConsoleApp\\obj\\",
+      "projectPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\k\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Jerzy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\k\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -31,7 +54,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj": {
+              "projectPath": "C:\\Users\\k\\source\\repos\\FinanceChecker\\CommonLib\\CommonLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
