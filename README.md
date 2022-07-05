@@ -1,2 +1,4 @@
 # FinanceChecker
-Financial control program
+Financial control program. 
+
+Application register payments made in a given month. Also display the annual expense statement.
